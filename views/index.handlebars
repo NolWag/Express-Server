@@ -1,12 +1,17 @@
-{{#each users}}
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <a href="/users/{{this.username}}">
-      {{this.name}}
-    </a>
-  </div>
+<div class="class__section">
+<img class="desk__img" src="/images/desk-white.svg" />
+<h1 class="title">The Class</h1>
+<p class="text">Our web development class covers
+HTML, CSS and Javascript, three differ-
+ent languages that are commonly
+found in websites and web applications.</p>
+<p class="text">
+  Learn the skills to get a job in the web
+industry. As of 2016, a Stack Overflow
+survey found 56% of Developers did not
+have a degree.
+</p>
+<a href="/">
+<div class="btn btn-main">Register</div>
+</a>
 </div>
-{{#if this.bio}}
-  <div clas="panel-body">{{this.bio}}</div>
-{{/if}}
-{{/each}}
