@@ -4,6 +4,7 @@ body {
   background-color: #00a99d;
   margin: 2em;
   color: #fff;
+  overflow-y: hidden;
 }
 
 a {
@@ -44,6 +45,10 @@ a {
     background-color: #fff;
     color: #333;
   }
+}
+
+.section__img {
+  margin: 4em;
 }
 
 
