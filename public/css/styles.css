@@ -10,14 +10,18 @@ a {
   text-decoration: none; }
 
 .container {
-  margin: 50% auto; }
+  margin: 40% auto; }
 
 .title {
   color: #333333;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  margin: 0; }
+  margin: 0;
+  font-size: 1.5em; }
+
+.highlight {
+  color: #333; }
 
 .text {
   font-family: 'Montserrat', sans-serif;
@@ -35,7 +39,7 @@ a {
     color: #333; }
 
 .section__img {
-  margin: 4em; }
+  margin: 0em 4em 1em 4em; }
 
 .class__section {
   display: flex;

@@ -13,7 +13,7 @@ a {
 }
 
 .container {
-  margin: 50% auto;
+  margin: 40% auto;
 }
 
 .section {}
@@ -26,6 +26,11 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin: 0;
+  font-size: 1.5em;
+}
+
+.highlight {
+  color: #333;
 }
 
 .text {
@@ -48,7 +53,7 @@ a {
 }
 
 .section__img {
-  margin: 4em;
+  margin: 0em 4em 1em 4em;
 }
 
 
