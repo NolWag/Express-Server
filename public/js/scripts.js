@@ -2,6 +2,6 @@ $('#contain').dragend();
 
 $("#btn").on("click", function() {
    $("#contain").dragend({
-    scrollToPage: 2
+    scrollToPage: 3
   });
 });
